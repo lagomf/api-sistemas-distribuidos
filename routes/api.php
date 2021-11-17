@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-Route::get('oi');
+
 Route::group(['middleware' => [],'prefix'=>'movie'], function () {
     Route::get('/','MovieController@index')->name('movie.index');
     Route::get('/{movie}','MovieController@show')->name('movie.show');
