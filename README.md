@@ -6,19 +6,13 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+## Sobre este projeto
 
-## About Laravel
--Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Este projeto consiste em uma atividade prática de REST API para a disciplina de sistemas distribuídos, ele foi feito em PHP com o framework Laravel 8 e banco de dados MySQL.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-- Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## About this project
+Requisitos para instalação e testes:
+- Servidor Apache ou NGINX com PHP 7.0 ou superior (Recomendado: <a href="https://laragon.org/">Laragon</a>;
+- Servidor MySQL (Recomendado: Laragon ou MySQL Workbench);
+- <a href="https://getcomposer.org/">Composer</a>;
+- Aplicação para testes de API (<a href="https://www.postman.com/">Postman</a>).
 
