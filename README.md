@@ -32,6 +32,7 @@ Requisitos para instalação e testes:
 - Abrir um terminal ou cmd e entrar na pasta "/laragon/www/\<pasta do projeto\>":
     - Executar o comando: "composer install" (necessário colocar o Composer como variável global do sistema);
     - Executar o comando: "php artisan migrate";
+    - Executar o comando: "php artisan key:generate";
 
 # Testando
 Para verificar se a instalação ocorreu como o esperado, acesse no browser a URL que você especificou no APP_URL do arquivo ".env" e verifique se uma página HTML com as rotas de CRUD é carregada.
