@@ -37,7 +37,7 @@ Requisitos para instalação e testes:
 # Testando
 Para verificar se a instalação ocorreu como o esperado, acesse no browser a URL que você especificou no APP_URL do arquivo ".env" e verifique se uma página HTML com as rotas de CRUD é carregada.
 
-Em seguida acesse o Postman e importe a collection: <a href="https://www.postman.com/collections/b6281c8d725472936712"> https://www.postman.com/collections/b6281c8d725472936712 </a>.
+Em seguida acesse o <a href="https://www.postman.com/">Postman</a> e importe a collection: <a href="https://www.postman.com/collections/b6281c8d725472936712"> https://www.postman.com/collections/b6281c8d725472936712 </a>.
     
 > Botão IMPORT -> Aba link
     
@@ -48,6 +48,8 @@ Para cada rota especificada, edite a URL base de acordo com a URL do seu projeto
 - Para rota DELETE: edite o ID do filme que deseja deletar;
     
 É de suma importância utiizar o header "Accept: application/vnd.api+json" nas rotas de API para obter respostas e erros no formato JSON (caso contrário para erros aparecerá apenas uma página HTML com um erro 4xx ou 5xx). Além disso, deve-se atentar ao verbo HTTP adequado para cada rota (GET, POST...).
+
+> Caso esteja usando o Postman direto no navegador, na primeira tentativa de requisição à API ocorrerá um erro (Cloud agent error) pois a rota da API é local e o Postman não consegue acessá-la. Para resolver esse problema é só clicar na opção "Use Postman's Desktop Agent" na mensagem de erro. Após concluir a instalação do Desktop Agent será possível realizar as requisições pelo navegador a API normalmente.
     
 # Sobre o código
     
